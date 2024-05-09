@@ -9,53 +9,93 @@
     <link rel="icon" type="image/x-icon" href="#">
     <link rel="stylesheet" href="../src/css/main.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>HONEST Computers</title>
 </head>
 <body>
-    <header>
-        <h1>HONEST Computers <i class='bx bx-desktop'></i></h1>
-        <nav>
-            <li>
-                <ol><a href="../src/prace.html" target="_blank">Naše práce</a></ol>
-                <ol><a href="../src/pobocky.html" target="_blank">Pobočky</a></ol>
-                <ol><a href="../src/kontakty.html" target="_blank">Kontakty</a></ol>
-                <ol><a href="../src/formular.html" target="_blank">Formulář</a></ol>
-            </li>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>HONEST Computers <i class='bx bx-desktop'></i></h1>
+                </a>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="../src/prace.html" target="_blank">Naše práce</a></li>
+                    <li><a href="../src/pobocky.html" target="_blank">Pobočky</a></li>
+                    <li><a href="../src/kontakty.html" target="_blank">Kontakty</a></li>
+                    <li><a href="../src/formular.html" target="_blank">Formulář</a></li>
+                    <li><a class="btn" href="../src/login.html" target="_blank"><i class='bx bxs-user'></i> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <main>
-        <div class="upoutavka">
-            <div class="upoutavka-text">
+        <section class="intro">
+            <div class="container-sm">
+                <div class="intro-bg"></div>
+                <div class="intro-content">
+                    <h2 class="text-md text-close">Rychlá</h2>
+                    <h1 class="text-xxl text-close">Oprava PC a Laptopu</h1>
+                    <p>Spolehlivá pomoc s jakýmkoliv problémem na počítači</p>
+                    <div class="btn btn-primary">Jak můžeme pomoct?</div>
+                </div>
+            </div>
+        </section>
+        <section class="volba">
+            <div class="container">
+                <div class="volba-content">
+                    <div class="volba-slozeni">
+                        <a href="#">
+                            <img src="../src/img/slozeniPC.jpg" alt="Slozeni">
+                            <h2 class="text-lg text-bold">Skládání PC</h2>
+                        </a>
+                    </div>
+                    <div class="volba-oprava">
+                        <a href="#">
+                            <img src="../src/img/opravaPC.jpg" alt="Oprava">
+                            <h2 class="text-lg text-bold">Opravování PC</h2>
+                        </a>
+                    </div>
+                    <div class="volba-jine">
+                        <a href="#">
+                            <img src="../src/img/jinePC.jpg" alt="Jine">
+                            <h2 class="text-lg text-bold">Jiné služby</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container-sm">
+                <div class="info-content">
+                    <h1 class="text-xxl">Nejede počítač?</h1>
+                    <p class="info-text">Chcete zjistít co se stalo s vaším počítačem a jak ho vylepšit k vaší potřebě? Tak to jste na správném místě. Opravíme vám počítač za normální cenu a pomůžeme jak můžeme.</p>
+                    <div class="info-button">
+                        <a href="#" class="btn btn-primary">Kontaktujte nás</a></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-sm">
+                <div class="info-content">
+                    <h1 class="text-xxl">Potřebujete nový PC?</h1>
+                    <p class="info-text">Pokud chcete investovat do vaší budoucnosti pomocí nového, rychlého a krásného počítače, u nás vám doporučíme co je nejlepší pro vás. S vybíráním a skládáním počítače nebo notebooku vám pomůžeme aby jsme měli o problém méně.</p>
+                    <div class="info-button">
+                        <a href="#" class="btn btn-primary">Kontaktujte nás</a></a>
+                    </div>
+                </div>
+            </div>
                 
-                    <h3>Rychlá</h3>
-                    <h1>Oprava PC a Laptopů</h1>
-                    <p>Spolehlivá pomoc s jakoukoliv výpočetní technikou</p>
-                    <a href="../src/mail.html">Napište</a><br>
-            </div>
-        </div>
-        <div class="poskytnuti">
-            <a href="#">Složení</a>
-            <a href="#">Oprava</a>
-            <a href="#">Server</a>
-        </div>
-        <div class="info">
-            <div class="info-oprava">
             
-                <img src="#" alt="Porouchaný PC">
-                <h2>Nejede počítač?</h2>
-                <p>Chcete zjistít co se stalo s vaším počítačem a jak ho vylepšit k vaší potřebě? Tak to jste na správném místě. Opravíme vám počítač za normální cenu a pomůžeme jak můžeme. Kontaktujte nás <a href="../src/mail.html">zde.</a></p>
-            </div>
-            <div class="info-novypc">
-                <h2>Potřebujete nový PC?</h2>
-                <p>Pokud chcete investovat do vaší budoucnosti pomocí nového, rychlého a krásného počítače, u nás vám doporučíme co je nejlepší pro vás. S vybíráním a skládáním počítače nebo notebooku vám pomůžeme aby jsme měli o problém méně. Kontaktujte nás <a href="../src/mail.html">zde.</a></p>
-                <img src="#" alt="Porouchaný PC">
-            </div>
-        </div>
+        </section>
         <div class="tym">
             <h1>Náš tým</h1>
             <a href="#">
-                <img src="../src/img/Front.jpg.crdownload" alt="Marian Krop">
+                <img src="../src/img/Front.jpg" alt="Marian Krop">
                 <h3>Marian Krop</h3>
                 <p>Majitel</p>
             </a>
