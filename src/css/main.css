@@ -64,17 +64,12 @@ img{
 .intro{
     margin-bottom: 50px;
 }
-.intro-bg{
-    
-    background-image: url("../img/introBG.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(2px);
-    height: 550px;
-}
 .intro-content{
-    
+    background: url(../img/introBG.jpg) no-repeat;
+    background-size: contain;
+    background-position: center center;
+    border-radius: 50%;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
